@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Happiness Study</title>
+</head>
+<body >
+    <h1>World Happiness Study</h1>
+    <h3>FEW 2.5 - Stephanie Cherubin</h3>
+    <h4 id="year"></h4>
+    <h4 id="totalCountries"></h4>
+    <div style="display:flex;justify-content: center;align-items: center;flex-wrap: wrap;">
+        <canvas id="canvas" width="800" height="400"></canvas>
+        <div style="width:400px; margin:10px", height="400px">
+            <canvas id="canvas" width="400" height="400"></canvas>
+        </div>
+        
+        <div style="width:400px; margin:10px", height="400px">
+            <canvas id="canvas2" width="400" height="400"></canvas>
+        </div>
+        
+        <div style="width:400px; margin:10px", height="400px">
+            <canvas id="canvas3" width="400" height="400"></canvas>
+        </div>
+        
+    </div>
+    <!-- Load d3.js and the geo projection plugin -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
+    <svg id="world-happiness" width="1264" height="700"></svg>
+    <script src="visualization.js"></script>
+</body>
+</html>
